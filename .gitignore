@@ -1,0 +1,69 @@
+# ----- Build artifacts -----
+app/build/
+native/build/
+setup/__setup_temp__/
+native/.vs/
+native/CMakeSettings.json.user
+*.msix
+*.msixbundle
+*.appx
+*.exe
+
+# ----- Dart/Flutter -----
+app/.dart_tool/
+app/.flutter-plugins-dependencies
+app/.packages
+app/.pub-cache/
+app/.pub/
+app/coverage/
+app/analysis_options.yaml.lock
+app/**/doc/api/
+
+# ----- Incompatible Platform directories -----
+app/android/
+app/ios/
+app/linux/
+app/macos/
+app/web/
+
+# ----- Logs & temp -----
+*.log
+*.tmp
+*.swp
+*.swo
+*.pid
+*.seed
+
+# ----- IDE / editor -----
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+
+# ----- environment & Secrets -----
+.env
+.env.*
+*.local
+*.pfx
+*.cer
+test_certificate.*
+
+# ----- OS -----
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ----- Misc -----
+*.symbols
+*.map.json
+
+# ----- Local tooling / workspace (not project source) -----
+.agents/
+docs/
+local
+images_for_prompt/
+AGENTS.md
+CONTEXT.md
+PLAN.md
+skills-lock.json
